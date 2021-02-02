@@ -1,0 +1,37 @@
+<html>
+<head>
+ <link rel="stylesheet" href="https://use.typekit.net/dzt6zpp.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<style>
+  h1, h1 *,
+  h2, h2 * {
+   font-family: parisplus-sombre,sans-serif;
+font-weight: 700;
+font-size: 50;
+font-style: normal;
+text-align: center;
+color:rgb(2, 63, 86);
+  }
+
+p {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 20;
+font-style: normal;
+text-align: center;
+color:rgb(2, 63, 86);
+}
+ </style>
+
+<h1> EVEN BADDIES WEAR HELMETS </h1>
+<p> A podcast about children's TV and the brilliant people who make it happen. </p>
+
+<center><img src = "https://lh5.googleusercontent.com/s2kersJsDhqVm2GCpLCJRjTXFzReBlNz0MmqL5cwT_1EMkb1Y5UKMJ6JULnew92nvQU2jyJCp8iFRCoeTINbcLU"> </center>
+
+</body>
+</html>
