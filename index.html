@@ -58,31 +58,34 @@ color:rgb(2, 63, 86);
   object-fit: cover;
 }
 
-.overlay {
-
-    position: fixed;
-    height:100%
-    width:100%
-    z-index: 2;
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
 }
-   body {background-color: #fbde72}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+  body {background-color: #fbde72}
   body {margin:0;padding:0}
 
 </style>
 
 <body>
 
+<div class="container">
 
-<video autoplay muted loop id="myVideo">
+  <video autoplay muted loop id="myVideo">
   <source src="rocket.mp4" type="video/mp4">
-</video>
+  </video>
 
-<div class="overlay">
-
-    <h1 class="top-bit" style="font-size: 5vw"> EVEN BADDIES WEAR HELMETS</h1>
-
-
-    <p style="margin-bottom: 100px; font-size: 2vw">A podcast about children's TV and the brilliant people who make it happen. </p>
+    <h1 class="centered" style="font-size: 5vw"> EVEN BADDIES WEAR HELMETS</h1>
+    <p class="centered"style="font-size: 2vw">A podcast about children's TV and the brilliant people who make it happen. </p>
 
     <div style="padding-left: 200px">
       <a href="https://twitter.com/EvenBaddiesPod?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-screen-name="false" data-lang="en" data-show-count="false">Follow @EvenBaddiesPod</a>
