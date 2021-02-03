@@ -2,6 +2,7 @@
 <html>
 <head>
 
+
 	<link rel="stylesheet" href="https://use.typekit.net/dzt6zpp.css">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 
@@ -9,6 +10,14 @@
 
   <style type="text/css">
 
+.button:hover {
+  transform: translateY(-4px);
+  filter: saturate(120%);
+}
+
+.button:active {
+  transform: translateY(4px);
+}
 	h1 {
    font-family: parisplus-sombre,sans-serif;
 font-weight: 700;
@@ -86,10 +95,6 @@ color: #fbde72;
   body {background-color: rgb(0,0,0);}
   body {margin:0;padding:0}
 
-
-body {cursor: url(cursor.png), default;
-}
-
 </style>
 
 <body>
@@ -106,19 +111,19 @@ body {cursor: url(cursor.png), default;
 
     <div align="center" class="category">
       <a href="https://twitter.com/EvenBaddiesPod" target="_blank">
-        <img style="width: 160px; height: 80px" src="twit.png" alt="twitter">
+        <img style="width: 160px; height: 80px; cursor: pointer" src="twit.png" class = "button" alt="twitter">
       </a>
     </div>
       
-    <div align="center" class="category">
-      <a href="https://www.instagram.com/evenbaddiespod/" target="_blank">
-        <img img style="width: 160px; height: 80px" src="insta.png" alt="instagram" />
+    <div align="center" class="category" style="cursor: pointer;">
+      <a href="https://www.instagram.com/evenbaddiespod/" class = "button" target="_blank">
+        <img img style="width: 160px; height: 80px;" class = "button" src="insta.png" alt="instagram" />
       </a>
       </div>
 
       <div align="center" class="category">
         <a href="https://www.facebook.com/EvenBaddiesPod" target="_blank">
-         <img img style="width: 160px; height: 80px" src="fb.png" alt="facebook" />
+         <img img style="width: 160px; height: 80px" class = "button" src="fb.png" alt="facebook" />
         </a>
       </div>
 
