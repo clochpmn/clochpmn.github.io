@@ -41,6 +41,13 @@ color: #fbde72;
   margin-right: auto;
 }
 
+.category {
+   position:relative;
+   display: inline-block;
+   float:none;
+   top: 10px;
+   padding:10px;
+}
 .parallax {
   background-image: url("ebwh222.gif");
 
@@ -59,6 +66,7 @@ color: #fbde72;
   bottom: 0;
   width: 100%;
   height: 100%;
+  z-index:1
   object-fit: cover;
 }
 
@@ -88,8 +96,31 @@ color: #fbde72;
   <source src="rocket.mp4" type="video/mp4">
   </video>
 
-    <h1 class="centered" style="font-size: 5vw; margin-top:27%"> EVEN BADDIES WEAR HELMETS</h1>
-    <p class="centered"style="font-size: 2vw; margin-top:31%">A podcast about children's TV and the brilliant people who make it happen. </p>
+  <div class="centered" style="top: 450px" >
+    <h1 style="font-size: 5vw; z-index:2"> EVEN BADDIES WEAR HELMETS </h1>
+    <p class="centered"style="font-size: 2vw; z-index:2">A podcast about children's TV and the brilliant people who make it happen. </p>
+
+    <div align="center" class="category">
+      <a href="https://twitter.com/EvenBaddiesPod">
+        <img style="width: 160px; height: 80px" src="twit.png" alt="twitter">
+      </a>
+    </div>
+      
+    <div align="center" class="category">
+      <a href="https://www.instagram.com/evenbaddiespod/">
+        <img img style="width: 160px; height: 80px" src="insta.png" alt="instagram" />
+      </a>
+      </div>
+
+      <div align="center" class="category">
+        <a href="https://www.facebook.com/EvenBaddiesPod">
+         <img img style="width: 160px; height: 80px" src="fb.png" alt="facebook" />
+        </a>
+      </div>
+
+
+  </div>
+
 
 </div>
 
