@@ -49,6 +49,14 @@ color:rgb(2, 63, 86);
   background-size: cover;
 }
 
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 @media only screen and (max-device-width: 500px) {
   .parallax {
     background-attachment: scroll;
@@ -59,6 +67,9 @@ color:rgb(2, 63, 86);
   }
 }
 
+<video autoplay muted loop id="myVideo">
+  <source src="rain.mp4" type="video/mp4">
+</video>
 
     body {background-color: #fbde72}
 	body {margin:0;padding:0}
