@@ -29,18 +29,6 @@
       }
     }
 
-    .ParallaxVideo{ 
-      height: 1vh;
-
-    }
-    .ParallaxVideo video{ 
-      min-height: 100%;
-      position: fixed;
-      top:0;
-      left: 0;
-      z-index: -1;
-    }
-
     .a{
 
       position: static;
@@ -54,10 +42,10 @@
       font-size: 300;
       font-style: normal;
       text-align: center;
-      white-space:nowrap;
-      overflow:hidden;
-      color:#fbde72;
+      color:#023F56;
     }
+
+
 
     h1.intext {
       font-family: parisplus-sombre,sans-serif;
@@ -84,9 +72,7 @@
       font-size: 100;
       font-style: normal;
       text-align: center;
-      white-space:nowrap;
-      overflow:hidden;
-      color: #fbde72;
+      color: #023F56;
       position: relative;
       top: 50%;
       left: 50%;
@@ -136,7 +122,13 @@
     transform: translate(-50%, -50%);
   }
 
-  body {background-color: #023F56}
+   html{ background: url("swiggle.png") no-repeat center center fixed;
+   background-color: rgb(192, 221, 194); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
   body {margin:0;padding:0}
 
 </style>
@@ -145,34 +137,29 @@
 
   <div class="container">
     <div class="centered" style="top: 45vh" >
-      <h1 style="font-size: 5.5vw"> EVEN BADDIES WEAR HELMETS </h1>
-      <p class="sub" style="font-size: 2vw">A podcast about children's TV and the brilliant people who make it happen. </p>
+      <h1 style="font-size: 10vh"> EVEN BADDIES WEAR HELMETS </h1>
+      <p class="sub" style="font-size: 4vh">A podcast about children's TV and the brilliant people who make it happen. </p>
 
       <div align="center" class="category">
         <a href="https://twitter.com/EvenBaddiesPod" target="_blank">
-          <i class="fa fa-twitter" style="font-size:4vw; color: #fbde72"></i>
+          <i class="fa fa-twitter" style="font-size:7vh; color: #023F56"></i>
         </a>
+        
       </div>
 
       <div align="center" class="category" style="cursor: pointer;">
         <a href="https://www.instagram.com/evenbaddiespod/" target="_blank">
-         <i class="fa fa-instagram" style="font-size:4vw; color: #fbde72"></i>
+         <i class="fa fa-instagram" style="font-size:7vh; color: #023F56"></i>
        </a>
      </div>
 
      <div align="center" class="category">
       <a href="https://www.facebook.com/EvenBaddiesPod" target="_blank">
-       <i class="fa fa-facebook" style="font-size:4vw; color: #fbde72"></i>
+       <i class="fa fa-facebook" style="font-size:7vh; color: #023F56"></i>
      </a>
    </div>
 
  </div>
-
-  <div class="ParallaxVideo">
-    <video autoplay muted loop>
-      <source src="video.mp4" type="video/mp4">
-      </video>
-    </div>
 
   </div>
 
