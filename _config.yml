@@ -1,6 +1,3 @@
-gems:
+url: "https://evenbaddieswearhelmets.co.uk"
+plugins:
   - jekyll-sitemap
-  
- plugins:
-  - jekyll-sitemap
-
