@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://evenbaddieswearhelmets.co.uk/sitemap.xml
