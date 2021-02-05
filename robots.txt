@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
 
+User-agent: *
+Disallow: /Untitled.html
+Disallow: /index2.html
+Disallow: /launch.html
+
 Sitemap: https://evenbaddieswearhelmets.co.uk/sitemap.xml
